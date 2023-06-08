@@ -1,0 +1,22 @@
+<section class="side-nav-fixed">
+  <ul>
+      <li (click)="m.action ? m.action():{}" *ngFor="let m of menu; let i = index" data-bs-toggle="tooltip"
+          data-bs-placement="top" title="{{m.Title}}">
+          <a [routerLink]="m.link" [routerLinkActive]="m.link ? 'active' : 'is_disabled'"> <i
+                  [ngClass]="m.class"></i></a>
+      </li>
+  </ul>
+</section>
+
+<div class="Site">
+  <app-header></app-header>
+  
+  
+  <div class="Site-content">  
+  <router-outlet></router-outlet>
+  </div>
+   
+  <div class="footer1">
+  <app-footer></app-footer>
+  </div>
+  </div>

@@ -1,0 +1,218 @@
+p.text-start.pt-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 129.7%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #53616C;
+}
+span.ic-bg {
+    background: #53616c;
+    border-radius: 12px;
+}
+.pd{
+    margin-top: -4px;
+    color: #091C2C;
+    margin-right: 10px;
+    font-size: 12px;
+}
+button#pills-profile-tab {
+    width: 100%;
+}
+.cotain h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #091C2C;
+}
+
+p.app {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #5D6974;
+    margin: 0;
+}
+
+.nav-par ul#pills-tab {
+    justify-content: space-between;
+}
+.nav-par .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #53616C !important;
+    background-color: #0d6efd00 !important;
+    border-bottom: solid 2px;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.nav-par button#pills-home-tab {
+    width: 100%;
+}
+
+.nav-par li.nav-item {
+    width: 50%;
+}
+
+h3.buil-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 129.7%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #53616C;
+    padding-top: 15px;
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-top: 3px;
+}
+.search input.form-control {
+    background: #FAFAFA;
+    border: 1px solid #EFEFEF;
+    border-radius: 0;
+}
+img.pointer {
+    cursor: pointer;
+}
+input.form-control {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.txt h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #091C2C;
+}
+
+.txt p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* or 48px */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #091C2C;
+
+}
+
+button.btn.btn-secondary {
+    width: 180px;
+    height: 56px;
+    background: none;
+    color: #000;
+    font-size: 16px;
+}
+
+button.btn.btn-primary {
+    background: #091C2C !important;
+    background-color: #091C2C !important;
+    border-radius: 7px;
+    width: 180px;
+    height: 56px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+section.builder {
+    overflow: auto;
+    // height:calc(100vh - 170px) !important;
+}
+.parti ul#pills-tab {
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.parti button {
+    background: #D9D9D9 !important;
+    border-radius: 20px;
+    color: #091C2C !important;
+    border-radius: 50px !important;
+    font-size: 13px;
+}
+.parti .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #000 !important;
+    color: #fff !important;
+}
+.nav-par ul#pills-tab {
+    border-bottom: solid 1px #ccc;
+}
+.cotain .nav-link {
+    color: #000;
+}
+.progress-bar img {
+    padding: 8px;
+}   
+.progress-bar {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    align-items: center;
+    background: 
+      radial-gradient(closest-side, white 84%, transparent 80% 100%),
+      
+      conic-gradient(rgb(0, 0, 0) 75%, rgb(200, 200, 200) 0);    
+  }
+
+  .profi {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+@media(max-width:1280px){
+    .col.text-start {
+        font-size: 10px;
+        flex-basis: 78%;
+    }
+    .col.text-end {
+        width: 18%;
+    }
+    .justify-content-between {
+       
+        align-items: center !important;
+    }
+    img.pointer {
+        width: 16px;
+    }
+}

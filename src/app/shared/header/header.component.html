@@ -1,0 +1,60 @@
+<section class="primary-header bg-primay py-0">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-8 col-2">
+                <img routerLink="/" style="cursor: pointer;" src="../../../assets/logo/primary-logo.svg" alt="logo">
+            </div>
+            <div class="col-lg-4 col-10">
+                <div class="row justify-content-end align-items-center">
+                    <div class="col-lg-4 col-2 text-end p-0">
+                        
+                        
+                        <button type="button" class="btn" style="position: relative;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-bell" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                              </svg> <span class="badge badge-light">0</span>
+                            <span class="sr-only"></span>
+                          </button>
+    
+                </div>
+                    <div class="col-lg-2 col-2 text-end"><img src="../../../assets/logo/Mask group.svg" alt=""> </div>
+                    <div class="col-lg-3 col-4 text-end Version"><p>-Version 1.2 (2023)</p></div>
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    </section>
+    
+    <!---------------- second-nav start------------>
+    
+    <section class="primary-header py-2" style="background: #fff;">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-8 col-6">
+                    <p class="cherve" style="color: #101010; font-weight: 400;font-size: 16px; cursor: pointer; position: relative;" (click)="Open()">Enter Your Title here  <span class="ms-2"><img src="../../../assets/logo/ChevronDown.svg" alt=""></span> </p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row justify-content-end">
+
+                        <!-- <div class="col-lg-3 text-end"> <p routerLink="/dashboard/Preview" style="cursor: pointer ;"><span><i class="bi bi-eye"></i></span> <u> Preview</u></p> </div> -->
+                        <div class="col-lg-2 col-6 text-end"> <p class="ex"><span class="pre"> <img src="../../../assets/image/exit.svg" alt="">
+                            </span> Exit</p></div>
+        
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        </section>
+    
+        <div class="open" *ngIf="open" style="background: #fff; border: solid 0.3px #ccc; height: 200px;">
+    <div class="container">
+        <div class="row">
+            <p (click)="Close()">Close</p>
+        </div>
+    </div>
+        </div>
+    <!---------------- second-nav end------------>
+    

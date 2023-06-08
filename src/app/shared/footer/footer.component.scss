@@ -1,0 +1,260 @@
+
+
+// footer {
+//     height: 74px;
+//   }
+.mt-auto {
+    margin-top: auto !important;
+}
+
+// p{
+//   margin: 0 !important;
+  
+// }
+
+#mainfooter{
+  z-index: 999;
+  position: relative;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+  .footer {
+    background-color: #091C2C;
+    color: #fff;
+    padding: 1rem;
+    // position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+  }
+  li.nav-item.line {
+    border-left: solid 2px;
+}
+li.nav-item.line {
+  padding-left: 31px !important;
+}
+li.nav-item.line2 {
+  padding-right: 31px !important;
+}
+  .footer span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  } 
+  .col-lg-2.col-md-2.col-sm-12.dash-footer-left {
+    display: flex;
+    justify-content: flex-start;
+}
+  .footer li {
+    padding: 0 0.5rem;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  span.copyright-text {
+    float: right;
+}
+
+
+// dashbord footer
+.dash-footer-left ul.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-width: 1480px;
+}
+.dash-footer-left li.nav-item:nth-child(3) {
+  border-left: 1px solid;
+  padding-left: 25px;
+}
+.dash-footer-left ul.footer-list li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+// resposnive
+
+@media (max-width:1600px) {
+
+  ul.footer-list li.nav-item:first-child {
+      padding-left: 0;
+  }
+  span.copyright-text {
+    font-size: 12px;
+  }
+  // .footer {
+  //   padding: 20px 0px;
+  // }
+  
+  // footer{
+  //   height: 60px;
+  // }
+
+
+ }
+
+ @media (max-width:1300px){
+  .dash-footer-left ul.footer-list li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+//   .footer{
+//     padding: 1rem;
+//     height: 50px;
+// }
+.footer{
+  background-color: #091C2C;
+  color: #fff;
+  padding: 1rem;
+  //  position: unset;
+  bottom: 0;
+  width: 100%;
+  z-index: 9;
+}
+ }
+@media (max-width:1200px) {
+
+ul.footer-list li.nav-item {
+  font-size: 16px;
+}
+ul.footer-list li.nav-item:first-child {
+    padding-left: 0;
+}
+span.copyright-text {
+  font-size: 11px;
+}
+.footer {
+   padding: 20px 0px;
+ }
+
+// footer {
+//   height: 60px;
+// }
+.footer ul {
+  justify-content: space-between;
+}
+// .footer {
+//   padding: 1.5rem 0;
+//   height: 110px;
+// }
+
+}
+
+@media (max-width:992px) {
+ul.footer-list {
+  display: flex;
+  justify-content: center;
+}
+span.copyright-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+}
+
+@media (max-width:991px) {
+
+.footer {
+    padding: 1rem 0;
+    width: 100%;
+    height: auto;
+}
+ul.footer-list li.nav-item {
+  font-size: 13px;
+}
+ul.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+footer.footer span.copyright-text {
+  font-size: 13px;
+  float: none;
+  justify-content: left;
+  margin-top: 20px;
+}
+ul.footer-list li.nav-item:nth-child(1) {
+  padding-left: 0;
+}
+.card-slide.ng-star-inserted {
+  background: #fff;
+  padding: 10px;
+  margin: auto;
+  width: 173px;
+}
+
+}
+
+@media (max-width:767px) {
+  .dash-footer-left ul.footer-list {
+    margin: auto;
+}
+  .footer-list img {
+    width: 75%;
+}
+
+  .dash-footer-left ul.footer-list li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+ul.footer-list li.nav-item {
+    font-size: 8px;
+}
+footer.footer span.copyright-text {
+    font-size: 9px;
+}
+// .footer {
+//     position: static;
+// }
+.dash-footer-left ul {
+  padding-top: 0px !important;
+}
+
+li.nav-item.line2 {
+  padding-right: 5px !important;
+}
+
+li.nav-item.line   {
+  padding-left: 20px !important;
+}
+}
+
+  
+/* @media(min-width:1900px)
+{ .footer {
+      position: fixed;
+  }
+  .footertwo {
+    position: static !important;
+}
+
+}   */

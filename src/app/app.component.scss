@@ -1,0 +1,144 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+  }
+  
+  .side-nav-fixed {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 100%;
+    // background: #091C2C;
+    display: flex;
+    align-items: center;
+}
+
+.one svg {
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 20px;
+   
+} .one svg:hover{
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+
+i.bi.bi-trash3 {
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 20px;
+    font-size: 12px;
+}
+i.bi.bi-trash3:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card-style {
+    text-align: center;
+    margin-top: 10px;
+    min-height: calc(100vh - 205px);
+    width: auto;
+    background: #FFFFFF;
+    border: 0.2px solid #dde1e5;
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+   
+}
+
+
+.active i.settings,.active i.share {
+    filter: invert(48%) sepia(32%) saturate(3207%) hue-rotate(323deg) brightness(67%) contrast(109%)
+}
+
+
+.side-nav-fixed ul {
+    background: #091C2C;
+    border-radius: 0 10px 10px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-nav-fixed ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    width: 100%;
+    padding: 24px 8px;
+}
+
+.side-nav-fixed ul li a {
+    display: flex;
+    width: 38px;
+    height: 38px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.side-nav-fixed ul li:last-child {
+    border: 0 !important;
+}
+
+
+
+.side-nav-fixed ul li a:hover svg {
+    fill: #D62A27;
+}
+
+.hover-text-red:hover {
+    color: #D62A27 !important
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+    .side-nav-fixed ul li a:hover,
+    .side-nav-fixed ul li a.active {
+        background: #FFF;
+        color: #D62A27;
+    }
+
+    .side-nav-fixed {
+        a {
+            .orkoSideIcon {
+                // background: url(assets/orkoIco.svg);
+                
+                background: url(../assets/logo/short-log.svg);
+                height: 25px;
+                width: 25px;
+                background-size: contain !important;
+                background-repeat: no-repeat !important;
+                background-position: center !important;
+            }
+    
+            &.active {
+                .orkoSideIcon {
+                    background: url(../assets/logo/short-log.svg);
+                }
+            }
+            &:hover{
+                .orkoSideIcon {
+                    background: url(../assets/logo/short-log.svg);
+                }
+            }
+        }
+    }
